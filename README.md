@@ -18,8 +18,8 @@ add these lines to your settings file:
 
 ``` python
     THUMBNAIL_FORMAT = "AVIF"
-    THUMBNAIL_ENGINE = "sorl_thumbnail_avif.thubmnail.engines.AvifEngine"
-    THUMBNAIL_BACKEND = "sorl_thumbnail_avif.thubmnail.AvifThumbnail"
+    THUMBNAIL_ENGINE = "sorl_thumbnail_avif.thumbnail.engines.AvifEngine"
+    THUMBNAIL_BACKEND = "sorl_thumbnail_avif.thumbnail.AvifThumbnail"
 ```
 
 **note**: you can use any of the sorl-thumbnail supported formats as well, so `JPEG` or others also work.
